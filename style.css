@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+  
+  body{
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #8D3DAF;
+        height: 900px;
+      }
+    
+      .logo {
+        height: 30px;
+        font-family: sans-serif;
+        margin-top: 60px;
+        margin-left: 150px;
+      }
+      
+      .item {
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        list-style-type: none;
+        gap: 80px;
+        margin-top: 60px;
+        margin-left: 300px;
+      }
+ 
+      .items:nth-child(1) {
+        text-decoration: underline;
+        color: blue;
+      }      
+
+      .button {
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 1px 25px;
+        color: #fff;
+        background-color: #1B98F5;
+        margin-right: 150px;
+        height: 60px;
+        border-color: none;
+        border: none;
+        margin-top: 50px;
+      }
+
+      .SAAS {
+        margin-left: 170px;
+        margin-top: -700px ;
+        color: #fff;
+        font-family: sans-serif;
+      }
+
+      .SAAS h2 {
+        font-family: sans-serif;
+        font-size: 85px;
+        line-height: 80px;
+        margin-top: 50px;
+      }
+
+      .SAAS p {
+        margin-top: 30px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .codext {
+        height: 800px;
+        margin-left: 900px;
+        margin-top: -500px;
+      }
+
+    .opearting-system {
+        margin-left: 1300px;
+      }
+      
+      .opearting-system h2 {
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-top: 300px;
+      }
+      
+      .Types {
+        margin-top: 110px;
+        margin-left: 50px;
+      }
+
+      .Fast h4 {
+        font-family: sans-serif;
+        font-size: 20px;
+        }
+      
+      .Fast p {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        font: bold;
+        margin-bottom: 20px;
+      }
+
+      .Allow h4 {
+        font-family: sans-serif;
+        font-size: 20px;
+      }
+
+      .Allow p {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        font: bold;
+        margin-bottom: 20px;
+        line-height: 30px;
+      }
+
+      .Smart h4 {
+        font-family: sans-serif;
+        font-size: 20px;
+      }
+
+      .Smart p {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        font: bold;
+        line-height: 30px;
+      }
+
+      .SAAS2 {
+        height: 900px;
+        margin-left:  -1250px;
+        margin-top: -600px;
+      }
+
+      .header2 {
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .button1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+        margin-top: 50px;
+        gap: 100px;
+        height: 250px;
+    }
+ 
+    .clean {
+        box-shadow: 5px 2px 5px grey;
+        margin-bottom: 20px;
+        border-radius: 20px;
+       
+    }
+
+    .clean h4 {
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+
+    .bgc-purple {
+      font-family: sans-serif;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      height: 95px;
+      width: 155px;
+      border-radius: 20px;
+      background-color: #8D3DAF;
+      padding-top: 5px;
+      color: #fff;
+    }
+
+    .clean p {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12px;
+    }
+
+    .bgc-purple1 {
+      text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12px;
+        margin-top: -73px;
+        color: #ddd;
+    }
+    
+    .webimage {
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 80px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #d6a5a5;
+        padding: 20px 10px;
+        }
+
+    .dataimage {
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 80px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #eb8225;
+        padding: 20px 10px;
+      }
+
+    .secureimage {
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 80px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #b6beb7;
+        padding: 20px 10px;
+      }
+
+    .supportimage {
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 80px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #9f6f9a;
+        padding: 20px 10px;
+      }
+    
+      
