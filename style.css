@@ -8,9 +8,10 @@
   body{
     background-position: center;
     background-size: cover;
-    min-width: 100%;
     min-height: 100vh;
     background-color: #fff;
+    max-width: 90rem;
+    margin: auto;
     }
 
     .navbar {
@@ -22,10 +23,10 @@
       }
     
       .logo {
-        height: 30px;
+        height: 20px;
         font-family: sans-serif;
         margin-top: 60px;
-        margin-left: 150px;
+        margin-left: 100px;
       }
       
       .item {
@@ -33,11 +34,11 @@
         flex-direction: row;
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         list-style-type: none;
-        gap: 80px;
+        gap: 50px;
         margin-top: 60px;
-        margin-left: 300px;
+        margin-left: 100px;
       }
  
       .items:nth-child(1) {
@@ -47,7 +48,7 @@
 
       .button {
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         padding: 1px 25px;
         color: #fff;
         background-color: #1B98F5;
@@ -59,7 +60,7 @@
       }
 
       .SAAS {
-        margin-left: 170px;
+        margin-left: 150px;
         margin-top: -700px ;
         color: #fff;
         font-family: sans-serif;
@@ -67,25 +68,26 @@
 
       .SAAS h2 {
         font-family: sans-serif;
-        font-size: 85px;
+        font-size: 65px;
         line-height: 80px;
         margin-top: 50px;
       }
 
       .SAAS p {
         margin-top: 30px;
-        line-height: 20px;
+        line-height: 25px;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
       }
 
       .codext {
-        height: 800px;
-        margin-left: 900px;
+        height: 700px;
+        margin-left: 630px;
         margin-top: -500px;
       }
 
     .opearting-system {
-        margin-left: 1300px;
+        margin-left: 1000px;
       }
       
       .opearting-system h2 {
@@ -137,8 +139,8 @@
       }
 
       .SAAS2 {
-        height: 900px;
-        margin-left:  -1250px;
+        height: 700px;
+        margin-left: -1000px;
         margin-top: -600px;
       }
 
